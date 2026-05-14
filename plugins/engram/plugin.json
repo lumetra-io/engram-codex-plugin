@@ -1,0 +1,33 @@
+{
+  "name": "engram",
+  "version": "0.1.0",
+  "description": "Persistent, explainable memory for Codex via the Engram MCP server. BYOK end-to-end — inference is billed by your LLM provider, not us.",
+  "author": "Lumetra <hi@lumetra.io>",
+  "homepage": "https://lumetra.io",
+  "repository": "https://github.com/lumetra-io/engram-codex-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "mcp", "engram", "lumetra", "context"],
+  "mcpServers": {
+    "engram": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.lumetra.io/mcp/sse",
+        "--header",
+        "Authorization:${AUTH_HEADER}"
+      ],
+      "env": {
+        "AUTH_HEADER": "Bearer ${ENGRAM_API_KEY}"
+      }
+    }
+  },
+  "userConfig": {
+    "ENGRAM_API_KEY": {
+      "description": "Your Engram API key from https://lumetra.io (looks like eng_live_...). Codex stores this in its secret store on install.",
+      "type": "string",
+      "secret": true,
+      "required": true
+    }
+  }
+}
