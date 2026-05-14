@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "engram": {
+      "url": "https://mcp.lumetra.io/mcp/sse",
+      "bearer_token_env_var": "ENGRAM_API_KEY"
+    }
+  }
+}
