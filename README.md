@@ -68,7 +68,7 @@ After install your agent can call:
 | `delete_memory(memory_id, bucket)` | Remove a single memory |
 | `clear_memories(bucket)` | Empty a bucket |
 
-Same surface as the [Claude Code plugin](https://github.com/lumetra-io/engram-plugin) and the official [TypeScript](https://github.com/lumetra-io/engram-js), [Python](https://github.com/lumetra-io/engram-py), and [Go](https://github.com/lumetra-io/engram-go) clients.
+Same surface as the [Claude Code plugin](https://github.com/lumetra-io/engram-claude-plugin) and the official [TypeScript](https://github.com/lumetra-io/engram-js), [Python](https://github.com/lumetra-io/engram-py), and [Go](https://github.com/lumetra-io/engram-go) clients.
 
 ## Repository layout
 
