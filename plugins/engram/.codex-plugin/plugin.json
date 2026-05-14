@@ -12,6 +12,7 @@
   "license": "MIT",
   "keywords": ["memory", "mcp", "engram", "lumetra", "context"],
   "mcpServers": "./.mcp.json",
+  "commands": "./commands",
   "interface": {
     "displayName": "Engram",
     "shortDescription": "Persistent, explainable memory for your agent.",
