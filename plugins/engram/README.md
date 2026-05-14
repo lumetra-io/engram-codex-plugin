@@ -10,7 +10,7 @@ The plugin wires Codex into `https://mcp.lumetra.io/mcp/sse`. Codex prompts for 
 plugins/engram/
 ├── .codex-plugin/
 │   └── plugin.json          # Codex plugin manifest
-├── .codex-mcp.json          # MCP server config (referenced from plugin.json)
+├── .mcp.json                # MCP server config (referenced from plugin.json)
 └── README.md
 ```
 

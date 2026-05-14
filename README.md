@@ -23,7 +23,7 @@ After the copy, your repo has:
 ```
 plugins/engram/
 ├── .codex-plugin/plugin.json   # the Codex manifest
-├── .codex-mcp.json             # MCP server config (referenced from plugin.json)
+├── .mcp.json                   # MCP server config (referenced from plugin.json)
 └── README.md
 ```
 

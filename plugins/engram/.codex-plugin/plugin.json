@@ -11,7 +11,7 @@
   "repository": "https://github.com/lumetra-io/engram-codex-plugin",
   "license": "MIT",
   "keywords": ["memory", "mcp", "engram", "lumetra", "context"],
-  "mcpServers": "./.codex-mcp.json",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Engram",
     "shortDescription": "Persistent, explainable memory for your agent.",
